@@ -30,8 +30,6 @@ The goal is to **detect newly resolved subdomains**, track **status/technology c
 ## 🧱 Architecture
 
 ```
-
-```
        ┌────────────┐
        │  Watcher   │  ← Client CLI (Add domains / Query data)
        └────┬───────┘
@@ -43,7 +41,6 @@ The goal is to **detect newly resolved subdomains**, track **status/technology c
      ┌──────┴──────┐
      │   Watch     │  ← Server (Monitors subdomains continuously)
      └─────────────┘
-```
 
 ````
 
@@ -155,26 +152,10 @@ python3 main.py --status 403 --tech Apache --status-changed
 }
 ```
 
----
+## 🧑‍💼 Author
 
-## 📄 License
-
-This project is licensed under the **MIT License**.
-See the [LICENSE](./LICENSE) file for more details.
-
----
-
-## 🙋 Contributing
-
-Pull requests are welcome!
-Feel free to open issues or contribute improvements and new features.
+**Alireza Mokhtari**  
+DevSecOps  
+[LinkedIn](https://www.linkedin.com/in/alirezamokhtari82)
 
 ---
-
-## ✨ Author
-
-Made with ❤️ by \[YourName]
-
----
-
-```
