@@ -1,0 +1,4 @@
+watch/__pycache__/
+watch/results/
+watch/.env
+watcher/.env
